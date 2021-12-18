@@ -25,7 +25,8 @@ class TestFeedModel: XCTestCase {
 		do {
 			let feed = try JSONDecoder().decode(Feed.self, from: data )
 			XCTAssertEqual(feed.url, "https://www.nytimes.com/2021/12/14/well/live/chin-hairs-women.html")
-			
+			XCTAssertEqual(feed.media.count, 1)
+			XCTAssertEqual(feed.media.first?.mediametadata?.count, 3)
 		}catch let error {
 			print(error)
 		}
@@ -100,3 +101,5 @@ let sampleRes = """
 			 "eta_id":0
 		}
 """
+
+

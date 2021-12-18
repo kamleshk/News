@@ -30,11 +30,12 @@ class NewsTableViewCell: UITableViewCell {
 	/// Variable to set the value to cell and its outlet
 	var news:Feed? {
 		didSet {
-			self.profileImage.loadImageUsingCache(withUrl: "https://static01.nyt.com/images/2021/12/14/well/14askwell-chin-hairs1/14askwell-chin-hairs1-thumbStandard.jpg")
 			self.titleHeading.text = news?.title ?? ""
 			self.subTitle.text = news?.byline ?? ""
 			self.dataLbl.text = news?.published_date ?? ""
 			self.sourceLbl.text = news?.source ?? ""
+			guard let url = news?.media.first?.mediametadata?.first?.url else { return}
+			self.profileImage.loadImageUsingCache(withUrl: url)
 		}
 	}
 	
