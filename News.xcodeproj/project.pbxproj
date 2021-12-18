@@ -23,6 +23,7 @@
 		5780FEC0276DABAF007EB727 /* TestFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEBF276DABAF007EB727 /* TestFeedModel.swift */; };
 		5780FEC5276DBB6B007EB727 /* TestFeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */; };
 		5780FECB276DC585007EB727 /* MostPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FECA276DC584007EB727 /* MostPopular.swift */; };
+		5780FED3276DCCFF007EB727 /* MostPopularServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		5780FEBF276DABAF007EB727 /* TestFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFeedModel.swift; sourceTree = "<group>"; };
 		5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFeedResponse.swift; sourceTree = "<group>"; };
 		5780FECA276DC584007EB727 /* MostPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopular.swift; sourceTree = "<group>"; };
+		5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularServiceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				57634E07276D19B100523B95 /* NewsTests.swift */,
 				5780FEBF276DABAF007EB727 /* TestFeedModel.swift */,
 				5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */,
+				5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */,
 				5780FE9D276D23CD007EB727 /* TestWebserviceManager.swift */,
 				57634E09276D19B100523B95 /* Info.plist */,
 			);
@@ -347,6 +350,7 @@
 			files = (
 				5780FEC5276DBB6B007EB727 /* TestFeedResponse.swift in Sources */,
 				5780FE9E276D23CD007EB727 /* TestWebserviceManager.swift in Sources */,
+				5780FED3276DCCFF007EB727 /* MostPopularServiceTest.swift in Sources */,
 				5780FEC0276DABAF007EB727 /* TestFeedModel.swift in Sources */,
 				57634E08276D19B100523B95 /* NewsTests.swift in Sources */,
 			);
