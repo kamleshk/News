@@ -14,7 +14,8 @@ enum DaysFeed:String {
 	case thirtyday = "30"
 }
  protocol MostPopularServiceProtocol {
-	func fetchMostPopular(days:DaysFeed, completion:@escaping (Result<FeedResponse,CustomError>)-> Void)
+	 func fetchMostPopular(days:DaysFeed, completion:@escaping (Result<FeedResponse,CustomError>)-> Void)
+	 func parsedata(_ data:Data?) throws -> FeedResponse
 }
 
 

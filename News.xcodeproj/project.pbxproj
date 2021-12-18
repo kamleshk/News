@@ -26,6 +26,8 @@
 		5780FED3276DCCFF007EB727 /* MostPopularServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */; };
 		5780FED8276DD102007EB727 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FED7276DD102007EB727 /* NewsListViewModel.swift */; };
 		5780FEDE276DD42D007EB727 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEDD276DD42D007EB727 /* Observable.swift */; };
+		5780FEE6276DF24F007EB727 /* MockServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEE5276DF24F007EB727 /* MockServiceTest.swift */; };
+		5780FEEB276DF478007EB727 /* NewListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularServiceTest.swift; sourceTree = "<group>"; };
 		5780FED7276DD102007EB727 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		5780FEDD276DD42D007EB727 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		5780FEE5276DF24F007EB727 /* MockServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServiceTest.swift; sourceTree = "<group>"; };
+		5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				5780FEBF276DABAF007EB727 /* TestFeedModel.swift */,
 				5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */,
 				5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */,
+				5780FEE5276DF24F007EB727 /* MockServiceTest.swift */,
+				5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */,
 				5780FE9D276D23CD007EB727 /* TestWebserviceManager.swift */,
 				57634E09276D19B100523B95 /* Info.plist */,
 			);
@@ -366,9 +372,11 @@
 			files = (
 				5780FEC5276DBB6B007EB727 /* TestFeedResponse.swift in Sources */,
 				5780FE9E276D23CD007EB727 /* TestWebserviceManager.swift in Sources */,
+				5780FEEB276DF478007EB727 /* NewListViewModelTest.swift in Sources */,
 				5780FED3276DCCFF007EB727 /* MostPopularServiceTest.swift in Sources */,
 				5780FEC0276DABAF007EB727 /* TestFeedModel.swift in Sources */,
 				57634E08276D19B100523B95 /* NewsTests.swift in Sources */,
+				5780FEE6276DF24F007EB727 /* MockServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

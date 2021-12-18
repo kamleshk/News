@@ -10,8 +10,8 @@ import Foundation
 class NewsListViewModel {
 	
 	private let service:MostPopularServiceProtocol
-	private var feedList:Observable<[Feed]>
-	private var errorMessage:Observable<String>
+	 var feedList:Observable<[Feed]>
+	 var errorMessage:Observable<String>
 	
 	/// Default constructer method for initilization
 	/// - Parameter _service: mostpopularservice class to get feed
@@ -33,8 +33,7 @@ class NewsListViewModel {
 			switch result {
 			case .success(let response): print(response)
 				self?.feedList.value = response.results
-				
-			case .failure(let error): print(error.localizedDescription)
+			case .failure(let error):
 				self?.checkForError(_error: error)
 			}
 		}
@@ -54,6 +53,7 @@ class NewsListViewModel {
 		case .customError(let error):    errorMessage.value = error
 		}
   }
+	
 	
 	
 }
