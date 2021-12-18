@@ -19,11 +19,12 @@ class MostPopularServiceTest: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
 			service = nil
     }
-
+	
+	/// Testing service function of mostpoular feed
 	func testMostPopularService() {
 		let expection  = XCTestExpectation()
 		
-		service?.fetchMostPopular(days: "7") { (result) in
+		service?.fetchMostPopular(days:.oneday) { (result) in
 			switch result{
 			case .success(let response) : print(response)
 				XCTAssertNotNil(response)

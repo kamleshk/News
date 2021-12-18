@@ -7,8 +7,14 @@
 
 import Foundation
 
+
+enum DaysFeed:String {
+	case oneday = "1"
+	case sevenday = "7"
+	case thirtyday = "30"
+}
  protocol MostPopularServiceProtocol {
-	func fetchMostPopular(days:String, completion:@escaping (Result<FeedResponse,CustomError>)-> Void)
+	func fetchMostPopular(days:DaysFeed, completion:@escaping (Result<FeedResponse,CustomError>)-> Void)
 }
 
 
@@ -21,8 +27,8 @@ struct MostPopularService : MostPopularServiceProtocol {
 	///   - days: number of days lenght feed required(old feed with number of days)
 	///   - completion: return `Result` which have success and failure data with `FeedResponse` response model
 	
-	func fetchMostPopular(days: String, completion: @escaping (Result<FeedResponse, CustomError>) -> Void) {
-		let path = "mostpopular/v2/mostviewed/all-sections/7.json?"
+	func fetchMostPopular(days: DaysFeed = .oneday, completion: @escaping (Result<FeedResponse, CustomError>) -> Void) {
+		let path = "mostpopular/v2/mostviewed/all-sections/\(days.rawValue).json?"
 		
 		WebserviceManager().requestGetApi(urlString: path) { (data, error) in
 			if error != nil{
