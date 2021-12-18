@@ -50,7 +50,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="by DAVID LEONHARD AND STUART A. JDJ AKSD KAD AKD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbg-fd-9zL">
                                                     <rect key="frame" x="100" y="56" width="283" height="17"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
-                                                    <color key="textColor" red="0.40126802156326474" green="0.40524097227181188" blue="0.40524097227181188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.37254901960784315" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pwy-iT-DTk">
@@ -114,6 +114,13 @@
                                                 <constraint firstAttribute="bottom" secondItem="pwy-iT-DTk" secondAttribute="bottom" constant="10" id="yl7-zx-wOs"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dataLbl" destination="zbX-2x-QPc" id="c6Y-n7-F7F"/>
+                                            <outlet property="profileImage" destination="PlD-dy-5Tw" id="xm5-yi-QAF"/>
+                                            <outlet property="sourceLbl" destination="zlf-Dk-a2Q" id="Jvj-UX-ntc"/>
+                                            <outlet property="subTitle" destination="hbg-fd-9zL" id="MEg-7i-sad"/>
+                                            <outlet property="titleHeading" destination="6ct-Oe-BUk" id="92M-9k-6WE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
