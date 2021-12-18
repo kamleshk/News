@@ -11,16 +11,31 @@ import WebKit
 class DetailViewController: UIViewController {
 
 	@IBOutlet weak var webview: WKWebView!
+	var detailViewModel:DetailViewModel? = nil
+	
 	override func viewDidLoad() {
         super.viewDidLoad()
-
-		guard let url = URL(string: "https://www.google.com/")  else { return }
-			 let request = URLRequest(url: url)
-		webview.navigationDelegate = self
-		webview.load(request)
+        self.setDelegate()
+		    self.setobserver()
+		   //webview.load(request)
     }
-    
-
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(true)
+		self.detailViewModel?.loadwebView()
+	}
+	
+	func setDelegate()  {
+		webview.navigationDelegate = self
+	}
+	
+	func setobserver() {
+		self.detailViewModel?.loadWebView?.bind({ [weak self](request) in
+			DispatchQueue.main.async {
+				self?.webview.load(request)
+			}
+		})
+	}
     /*
     // MARK: - Navigation
 

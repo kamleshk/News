@@ -30,6 +30,7 @@
 		5780FEEB276DF478007EB727 /* NewListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */; };
 		5780FEF1276DFF7D007EB727 /* Extension_UiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */; };
 		5780FEF6276E3D11007EB727 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEF5276E3D10007EB727 /* DetailViewController.swift */; };
+		5780FEFB276E4303007EB727 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEFA276E4302007EB727 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewModelTest.swift; sourceTree = "<group>"; };
 		5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UiImageView.swift; sourceTree = "<group>"; };
 		5780FEF5276E3D10007EB727 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5780FEFA276E4302007EB727 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				5780FED7276DD102007EB727 /* NewsListViewModel.swift */,
+				5780FEFA276E4302007EB727 /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				5780FEA3276D276E007EB727 /* NewsTableViewCell.swift in Sources */,
 				5780FEBB276DAB3F007EB727 /* Feed.swift in Sources */,
 				57634DF1276D197500523B95 /* AppDelegate.swift in Sources */,
+				5780FEFB276E4303007EB727 /* DetailViewModel.swift in Sources */,
 				5780FEB6276DA7D2007EB727 /* FeedResponse.swift in Sources */,
 				57634DF3276D197500523B95 /* SceneDelegate.swift in Sources */,
 				5780FEDE276DD42D007EB727 /* Observable.swift in Sources */,
@@ -490,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -545,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

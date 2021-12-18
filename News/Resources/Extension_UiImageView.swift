@@ -29,7 +29,7 @@ extension UIImageView {
 		guard let url = URL(string: urlString) else { return }
 		URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
 			if error != nil {
-				print(error!)
+				//print(error!)
 				return
 			}
 			//  populating Imageview with image data which we had from service or api to Cache on mainthread

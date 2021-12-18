@@ -37,7 +37,7 @@ struct MostPopularService : MostPopularServiceProtocol {
 			}else{
 				do{
 					let response = try self.parsedata(data)
-				print(response)
+				//print(response)
 					completion(.success(response))
 				} catch let error {
 					completion(.failure(.parserError(error.localizedDescription)))

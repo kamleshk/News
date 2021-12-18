@@ -31,7 +31,7 @@ class NewsListViewModel {
 	func fetchMostPopularFeed(feedays:DaysFeed) {
 		service.fetchMostPopular(days: .sevenday) { [weak self] (result) in
 			switch result {
-			case .success(let response): print(response)
+			case .success(let response): //print(response)
 				self?.feedList.value = response.results
 			case .failure(let error):
 				self?.checkForError(_error: error)

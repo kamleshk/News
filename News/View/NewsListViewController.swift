@@ -16,6 +16,8 @@ class NewsListViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
+	
+	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(true)
 		self.addObservers()
@@ -43,7 +45,8 @@ class NewsListViewController: UIViewController {
 	/// function to navigate to Detail screen
 	/// - Parameter feed: news model of popular api
 	func moveDetail(feed:Feed)  {
-		guard let detailcont = self.storyboard?.instantiateViewController(identifier: "") as? DetailViewController else { return }
+		guard let detailcont = self.storyboard?.instantiateViewController(identifier: "DetailViewController") as? DetailViewController else { return }
+		detailcont.detailViewModel = DetailViewModel(_feed: feed)
 		self.navigationController?.pushViewController(detailcont, animated: true)
 	}
 	
