@@ -24,6 +24,7 @@
 		5780FEC5276DBB6B007EB727 /* TestFeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */; };
 		5780FECB276DC585007EB727 /* MostPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FECA276DC584007EB727 /* MostPopular.swift */; };
 		5780FED3276DCCFF007EB727 /* MostPopularServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */; };
+		5780FED8276DD102007EB727 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FED7276DD102007EB727 /* NewsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFeedResponse.swift; sourceTree = "<group>"; };
 		5780FECA276DC584007EB727 /* MostPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopular.swift; sourceTree = "<group>"; };
 		5780FED2276DCCFF007EB727 /* MostPopularServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularServiceTest.swift; sourceTree = "<group>"; };
+		5780FED7276DD102007EB727 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		5780FEB2276DA6CC007EB727 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5780FED7276DD102007EB727 /* NewsListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			files = (
 				5780FE96276D1E30007EB727 /* WebserviceManager.swift in Sources */,
 				57634DF5276D197500523B95 /* NewsListViewController.swift in Sources */,
+				5780FED8276DD102007EB727 /* NewsListViewModel.swift in Sources */,
 				5780FECB276DC585007EB727 /* MostPopular.swift in Sources */,
 				5780FEA3276D276E007EB727 /* NewsTableViewCell.swift in Sources */,
 				5780FEBB276DAB3F007EB727 /* Feed.swift in Sources */,
