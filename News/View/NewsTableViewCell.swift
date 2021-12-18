@@ -26,6 +26,8 @@ class NewsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+	
+	/// Variable to set the value to cell and its outlet
 	var news:Feed? {
 		didSet {
 			self.profileImage.loadImageUsingCache(withUrl: "https://static01.nyt.com/images/2021/12/14/well/14askwell-chin-hairs1/14askwell-chin-hairs1-thumbStandard.jpg")
