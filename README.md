@@ -71,7 +71,7 @@ https://developer.nytimes.com
 To run tests, run the following command
 
 ```bash
-**** test run ****
+         **** test run ****
 	1. go to test navigator
 	2. tap on dimond icon which apper just next to target
 	
