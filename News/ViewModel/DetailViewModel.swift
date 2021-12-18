@@ -15,11 +15,13 @@ class DetailViewModel {
 	
 	init(_feed:Feed) {
 		self.feed = _feed
+		guard let url = URL(string: feed.url)  else { return }
+		self.loadWebView = Observable(URLRequest(url: url))
 		//self.loadView()
 	}
 	
 	func loadwebView() {
-		  guard let url = URL(string: "https://www.google.com/")  else { return }
+	 	guard let url = URL(string: feed.url)  else { return }
 			 let request = URLRequest(url: url)
 		self.loadWebView?.value = request
 	}

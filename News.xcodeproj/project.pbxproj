@@ -31,6 +31,7 @@
 		5780FEF1276DFF7D007EB727 /* Extension_UiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */; };
 		5780FEF6276E3D11007EB727 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEF5276E3D10007EB727 /* DetailViewController.swift */; };
 		5780FEFB276E4303007EB727 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEFA276E4302007EB727 /* DetailViewModel.swift */; };
+		5780FF09276E687D007EB727 /* DetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FF08276E687D007EB727 /* DetailViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UiImageView.swift; sourceTree = "<group>"; };
 		5780FEF5276E3D10007EB727 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5780FEFA276E4302007EB727 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		5780FF08276E687D007EB727 /* DetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				5780FEE5276DF24F007EB727 /* MockServiceTest.swift */,
 				5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */,
 				5780FE9D276D23CD007EB727 /* TestWebserviceManager.swift */,
+				5780FF08276E687D007EB727 /* DetailViewModelTest.swift */,
 				57634E09276D19B100523B95 /* Info.plist */,
 			);
 			path = NewsTests;
@@ -393,6 +396,7 @@
 				5780FEC5276DBB6B007EB727 /* TestFeedResponse.swift in Sources */,
 				5780FE9E276D23CD007EB727 /* TestWebserviceManager.swift in Sources */,
 				5780FEEB276DF478007EB727 /* NewListViewModelTest.swift in Sources */,
+				5780FF09276E687D007EB727 /* DetailViewModelTest.swift in Sources */,
 				5780FED3276DCCFF007EB727 /* MostPopularServiceTest.swift in Sources */,
 				5780FEC0276DABAF007EB727 /* TestFeedModel.swift in Sources */,
 				57634E08276D19B100523B95 /* NewsTests.swift in Sources */,
