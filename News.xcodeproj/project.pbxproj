@@ -28,6 +28,7 @@
 		5780FEDE276DD42D007EB727 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEDD276DD42D007EB727 /* Observable.swift */; };
 		5780FEE6276DF24F007EB727 /* MockServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEE5276DF24F007EB727 /* MockServiceTest.swift */; };
 		5780FEEB276DF478007EB727 /* NewListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */; };
+		5780FEF1276DFF7D007EB727 /* Extension_UiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		5780FEDD276DD42D007EB727 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		5780FEE5276DF24F007EB727 /* MockServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServiceTest.swift; sourceTree = "<group>"; };
 		5780FEEA276DF478007EB727 /* NewListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewModelTest.swift; sourceTree = "<group>"; };
+		5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UiImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				57634DF0276D197500523B95 /* AppDelegate.swift */,
 				57634DF2276D197500523B95 /* SceneDelegate.swift */,
+				5780FEEF276DFF4D007EB727 /* Resources */,
 				5780FEDC276DD408007EB727 /* SupportingFiles */,
 				5780FEC9276DC55D007EB727 /* ServiceLayer */,
 				5780FEB3276DA6E8007EB727 /* Model */,
@@ -221,6 +224,14 @@
 				5780FEDD276DD42D007EB727 /* Observable.swift */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5780FEEF276DFF4D007EB727 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5780FEF0276DFF7D007EB727 /* Extension_UiImageView.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +368,7 @@
 				57634DF5276D197500523B95 /* NewsListViewController.swift in Sources */,
 				5780FED8276DD102007EB727 /* NewsListViewModel.swift in Sources */,
 				5780FECB276DC585007EB727 /* MostPopular.swift in Sources */,
+				5780FEF1276DFF7D007EB727 /* Extension_UiImageView.swift in Sources */,
 				5780FEA3276D276E007EB727 /* NewsTableViewCell.swift in Sources */,
 				5780FEBB276DAB3F007EB727 /* Feed.swift in Sources */,
 				57634DF1276D197500523B95 /* AppDelegate.swift in Sources */,
