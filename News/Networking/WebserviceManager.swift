@@ -31,5 +31,7 @@ struct WebserviceManager {
 
 enum CustomError:Error {
 	case urlError(String)
+	case apiFailedError(String)
+	case parserError(String)
 	case customError(String)
 }

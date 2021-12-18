@@ -22,6 +22,7 @@
 		5780FEBB276DAB3F007EB727 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEBA276DAB3F007EB727 /* Feed.swift */; };
 		5780FEC0276DABAF007EB727 /* TestFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEBF276DABAF007EB727 /* TestFeedModel.swift */; };
 		5780FEC5276DBB6B007EB727 /* TestFeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */; };
+		5780FECB276DC585007EB727 /* MostPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FECA276DC584007EB727 /* MostPopular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		5780FEBA276DAB3F007EB727 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		5780FEBF276DABAF007EB727 /* TestFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFeedModel.swift; sourceTree = "<group>"; };
 		5780FEC4276DBB6B007EB727 /* TestFeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFeedResponse.swift; sourceTree = "<group>"; };
+		5780FECA276DC584007EB727 /* MostPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				57634DF0276D197500523B95 /* AppDelegate.swift */,
 				57634DF2276D197500523B95 /* SceneDelegate.swift */,
+				5780FEC9276DC55D007EB727 /* ServiceLayer */,
 				5780FEB3276DA6E8007EB727 /* Model */,
 				5780FEAD276DA638007EB727 /* View */,
 				5780FEB2276DA6CC007EB727 /* ViewModel */,
@@ -187,6 +190,14 @@
 				5780FE95276D1E30007EB727 /* WebserviceManager.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		5780FEC9276DC55D007EB727 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5780FECA276DC584007EB727 /* MostPopular.swift */,
+			);
+			path = ServiceLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +332,7 @@
 			files = (
 				5780FE96276D1E30007EB727 /* WebserviceManager.swift in Sources */,
 				57634DF5276D197500523B95 /* NewsListViewController.swift in Sources */,
+				5780FECB276DC585007EB727 /* MostPopular.swift in Sources */,
 				5780FEA3276D276E007EB727 /* NewsTableViewCell.swift in Sources */,
 				5780FEBB276DAB3F007EB727 /* Feed.swift in Sources */,
 				57634DF1276D197500523B95 /* AppDelegate.swift in Sources */,
