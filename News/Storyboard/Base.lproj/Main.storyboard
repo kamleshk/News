@@ -147,6 +147,40 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="88.392857142857139"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="ZMX-8h-Hd0">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="nS2-Jq-Wdu" customClass="DetailViewController" customModule="News" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iVk-TY-hhZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j2g-dn-f8g">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QaT-uC-Inf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="j2g-dn-f8g" firstAttribute="top" secondItem="QaT-uC-Inf" secondAttribute="top" id="79r-yU-PUq"/>
+                            <constraint firstItem="j2g-dn-f8g" firstAttribute="leading" secondItem="QaT-uC-Inf" secondAttribute="leading" id="9re-W3-4hY"/>
+                            <constraint firstItem="QaT-uC-Inf" firstAttribute="bottom" secondItem="j2g-dn-f8g" secondAttribute="bottom" id="I89-pG-ByQ"/>
+                            <constraint firstItem="QaT-uC-Inf" firstAttribute="trailing" secondItem="j2g-dn-f8g" secondAttribute="trailing" id="v4d-ub-mzv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="j2g-dn-f8g" id="aPO-nE-ecd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQP-H7-X9g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="81"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="IQP-82-L62">
             <objects>

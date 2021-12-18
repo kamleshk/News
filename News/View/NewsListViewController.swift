@@ -40,6 +40,13 @@ class NewsListViewController: UIViewController {
 	}
 	
 	
+	/// function to navigate to Detail screen
+	/// - Parameter feed: news model of popular api
+	func moveDetail(feed:Feed)  {
+		guard let detailcont = self.storyboard?.instantiateViewController(identifier: "") as? DetailViewController else { return }
+		self.navigationController?.pushViewController(detailcont, animated: true)
+	}
+	
 
 }
 
@@ -61,7 +68,8 @@ extension NewsListViewController : UITableViewDelegate , UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		
+		 let feed = viewmodel.feedList.value[indexPath.row]
+		 self.moveDetail(feed: feed)
 	}
 	
 	
